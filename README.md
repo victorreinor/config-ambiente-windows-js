@@ -31,7 +31,7 @@ Todas as configurações de um computador novo
 	- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons "vscode-icons")
 	- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula "Dracula Official")
 
-2. Após feito a instalação de todas as extensões aperte a tecla **ctrl + shift + p** e digite **open settings (JSON)** e insira [esta configuração](https://github.com/admcitrino/config-new-pc/blob/master/settings.json "esta configuração")
+2. Após feito a instalação de todas as extensões aperte a tecla **ctrl + shift + p** e digite **open settings (JSON)** e insira [esta configuração](https://github.com/victorreinor/config-ambiente-windows-js/blob/master/settings.json "esta configuração")
 
 ### Configuração do Cmder
 ---
