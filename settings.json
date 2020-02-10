@@ -1,0 +1,55 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula Soft",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 26,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    },
+  ],
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "prettier.eslintIntegration": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
