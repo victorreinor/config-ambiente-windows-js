@@ -35,7 +35,7 @@ Todas as configurações de um computador novo
 
 ### Configuração do Cmder
 ---
-1. [Faça download da config do cmder](https://github.com/admcitrino/config-new-pc/blob/master/config-cmder.xml "Faça download da config do cmder")
+1. [Faça download da config do cmder](https://github.com/victorreinor/config-ambiente-windows-js/blob/master/config-cmder.xml "Faça download da config do cmder")
 2. Abra o cmder
 3. Aperte **win + alt + p**
 4. Clique em **import**
