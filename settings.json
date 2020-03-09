@@ -1,55 +1,44 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Dracula Soft",
-  "window.zoomLevel": 0,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 20,
-  "editor.lineHeight": 26,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.formatOnSave": false,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": false,
+    "editor.smoothScrolling": true,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
     },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
     },
-    {
-      "language": "typescript",
-      "autoFix": true
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-  ],
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "prettier.eslintIntegration": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "vsicons.dontShowNewVersionMessage": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "git.autofetch": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixall.eslintIntegration": true
+    }
   }
-}
